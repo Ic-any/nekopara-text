@@ -1,0 +1,3155 @@
+{
+    "hash": "ce432e8ad67c9ff99a6cc0109e2322a9",
+    "name": "04_01_00.txt",
+    "outlines": [],
+    "scenes": [
+        {
+            "firstLine": 0,
+            "label": "*start",
+            "lines": [
+                [
+                    1,
+                    {
+                        "data": [],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": null,
+                            "msgstate": 0,
+                            "name": "env",
+                            "stage": null,
+                            "time": null
+                        },
+                        "meswinchange": null
+                    },
+                    null,
+                    1,
+                    1
+                ],
+                [
+                    "envupdate",
+                    "update",
+                    [
+                        [
+                            "init",
+                            0
+                        ],
+                        [
+                            "new",
+                            "bgm",
+                            "bgm"
+                        ],
+                        {
+                            "action": [
+                                null
+                            ],
+                            "name": "env"
+                        }
+                    ],
+                    "wait",
+                    {
+                        "list": [
+                            {
+                                "mode": 0,
+                                "name": "env"
+                            }
+                        ]
+                    }
+                ],
+                [
+                    2,
+                    {
+                        "data": [
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm",
+                                    "state": null
+                                }
+                            ],
+                            "stage": null,
+                            "time": null
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    null,
+                    1
+                ],
+                [
+                    "startline",
+                    "vflag",
+                    0,
+                    "name",
+                    "",
+                    "text",
+                    0
+                ],
+                [
+                    "meswinload",
+                    "page",
+                    "both"
+                ],
+                [
+                    3,
+                    {
+                        "data": [
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm",
+                                    "state": null
+                                }
+                            ],
+                            "stage": null,
+                            "time": null
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    null,
+                    1
+                ]
+            ],
+            "nexts": [
+                {
+                    "eval": "checkCS()",
+                    "storage": "04_01_01c.txt",
+                    "type": 0
+                },
+                {
+                    "eval": "!checkAdult()",
+                    "storage": "04_01_02.txt",
+                    "type": 0
+                },
+                {
+                    "storage": "04_01_00.txt",
+                    "target": "*dummy1",
+                    "type": 0
+                }
+            ],
+            "spCount": 3,
+            "title": "１章　ハッピーバースデイ！",
+            "version": 1.0
+        },
+        {
+            "firstLine": 6,
+            "label": "*dummy1",
+            "lines": [
+                [
+                    1,
+                    {
+                        "data": [
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm",
+                                    "state": null
+                                }
+                            ],
+                            "stage": null,
+                            "time": null
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    1,
+                    6
+                ],
+                [
+                    "startline"
+                ],
+                [
+                    "msgoff"
+                ],
+                [
+                    "envupdate",
+                    "update",
+                    [
+                        [
+                            "new",
+                            "bg",
+                            "stage"
+                        ],
+                        {
+                            "action": [
+                                null,
+                                [
+                                    "zpos",
+                                    233.33333333333337
+                                ],
+                                null,
+                                [
+                                    "leveloffset",
+                                    ""
+                                ]
+                            ],
+                            "class": "stage",
+                            "link": "",
+                            "name": "bg",
+                            "redraw": {
+                                "disp": 2,
+                                "imageFile": {
+                                    "file": "bg_50a"
+                                },
+                                "posName": null
+                            },
+                            "showmode": 1,
+                            "type": null
+                        }
+                    ],
+                    "wait",
+                    {
+                        "list": [
+                            null,
+                            {
+                                "mode": 0,
+                                "name": "env"
+                            }
+                        ]
+                    },
+                    "trans",
+                    {
+                        "method": "crossfade",
+                        "time": 1000
+                    }
+                ],
+                [
+                    2,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bg_50a"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bg_50a",
+                                    "imageMapperData": {
+                                        "stage": "店舗外観４閉店",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": null,
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "店舗外観４閉店",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    null,
+                    11
+                ],
+                [
+                    "startline",
+                    "vflag",
+                    0,
+                    "name",
+                    "",
+                    "text",
+                    0
+                ],
+                [
+                    3,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bg_50a"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bg_50a",
+                                    "imageMapperData": {
+                                        "stage": "店舗外観４閉店",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": null,
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "店舗外観４閉店",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    1,
+                    13
+                ]
+            ],
+            "nexts": [
+                {
+                    "storage": "04_01_00.txt",
+                    "target": "*dummyselect1",
+                    "type": 0
+                }
+            ],
+            "spCount": 3,
+            "title": "１章　ハッピーバースデイ！",
+            "version": 1.0
+        },
+        {
+            "firstLine": 13,
+            "label": "*dummyselect1",
+            "lines": [
+                [
+                    1,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bg_50a"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bg_50a",
+                                    "imageMapperData": {
+                                        "stage": "店舗外観４閉店",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": null,
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "店舗外観４閉店",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    1,
+                    16
+                ]
+            ],
+            "selectInfo": {
+                "_line": 13,
+                "msgon": "true"
+            },
+            "selects": [
+                {
+                    "language": [
+                        null,
+                        {
+                            "text": "There are other people around you."
+                        },
+                        {
+                            "text": "你周围有其他人"
+                        },
+                        {
+                            "text": "你周围有其他人"
+                        }
+                    ],
+                    "render": 1,
+                    "selidx": 0,
+                    "storage": "04_01_00.txt",
+                    "target": "*kiss",
+                    "text": "あなたの周りに人が居る"
+                },
+                {
+                    "language": [
+                        null,
+                        {
+                            "text": "There is no one around you."
+                        },
+                        {
+                            "text": "你周圍沒有別人"
+                        },
+                        {
+                            "text": "你周围有其他人"
+                        }
+                    ],
+                    "render": 1,
+                    "selidx": 1,
+                    "storage": "04_01_00.txt",
+                    "target": "*ecchi",
+                    "text": "あなたの周りに人が居ない"
+                }
+            ],
+            "spCount": 1,
+            "title": "１章　ハッピーバースデイ！",
+            "version": 1.0
+        },
+        {
+            "firstLine": 16,
+            "label": "*next",
+            "lines": [
+                [
+                    1,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bg_50a"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bg_50a",
+                                    "imageMapperData": {
+                                        "stage": "店舗外観４閉店",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": null,
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "店舗外観４閉店",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    1,
+                    19
+                ]
+            ],
+            "nexts": [
+                {
+                    "storage": "04_01_02.txt",
+                    "type": 0
+                }
+            ],
+            "spCount": 1,
+            "title": "１章　ハッピーバースデイ！",
+            "version": 1.0
+        },
+        {
+            "firstLine": 19,
+            "label": "*kiss",
+            "lines": [
+                [
+                    1,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "link": "",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bg_50a"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 1,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bg_50a",
+                                    "imageMapperData": {
+                                        "stage": "店舗外観４閉店",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": null,
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "店舗外観４閉店",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    1,
+                    22
+                ]
+            ],
+            "nexts": [
+                {
+                    "storage": "04_01_01c.txt",
+                    "type": 0
+                }
+            ],
+            "spCount": 1,
+            "title": "１章　ハッピーバースデイ！",
+            "version": 1.0
+        },
+        {
+            "firstLine": 22,
+            "label": "*kiss2",
+            "lines": [
+                [
+                    1,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "link": "",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bg_50a"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 1,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bg_50a",
+                                    "imageMapperData": {
+                                        "stage": "店舗外観４閉店",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": null,
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "店舗外観４閉店",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    1,
+                    22
+                ],
+                [
+                    "startline"
+                ],
+                [
+                    "msgoff",
+                    "time",
+                    "1000"
+                ],
+                [
+                    "envupdate",
+                    "update",
+                    [
+                        [
+                            "new",
+                            "lse",
+                            "loopse"
+                        ],
+                        [
+                            "new",
+                            "lse2",
+                            "loopse"
+                        ],
+                        [
+                            "new",
+                            "lse3",
+                            "loopse"
+                        ],
+                        {
+                            "class": "stage",
+                            "link": "",
+                            "name": "bg",
+                            "redraw": {
+                                "disp": 2,
+                                "imageFile": {
+                                    "file": "bg_50a"
+                                },
+                                "posName": null
+                            },
+                            "showmode": 3,
+                            "type": null
+                        }
+                    ]
+                ],
+                [
+                    2,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bk"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ],
+                            [
+                                "ev",
+                                "event",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "class": "event",
+                                    "link": "",
+                                    "name": "ev",
+                                    "showmode": 0,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "lse",
+                                "loopse",
+                                {
+                                    "name": "lse",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse2",
+                                "loopse",
+                                {
+                                    "name": "lse2",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse3",
+                                "loopse",
+                                {
+                                    "name": "lse3",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bk",
+                                    "imageMapperData": {
+                                        "stage": "黒",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": {
+                                        "color": 0,
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                },
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "event",
+                                    "cpropsact": {
+                                        "zpos": 0
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "ev",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse2",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse3",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "黒",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    null,
+                    23
+                ],
+                [
+                    "envupdate",
+                    "update",
+                    [
+                        [
+                            "new",
+                            "ev",
+                            "event"
+                        ],
+                        {
+                            "action": [
+                                null,
+                                [
+                                    "leveloffset",
+                                    ""
+                                ]
+                            ],
+                            "class": "stage",
+                            "link": "",
+                            "name": "bg",
+                            "redraw": {
+                                "disp": 2,
+                                "imageFile": {
+                                    "file": "bk"
+                                },
+                                "posName": null
+                            },
+                            "showmode": 3,
+                            "type": null
+                        }
+                    ],
+                    "wait",
+                    {
+                        "list": [
+                            null,
+                            {
+                                "mode": 0,
+                                "name": "env"
+                            }
+                        ],
+                        "wait": 1500
+                    },
+                    "trans",
+                    {
+                        "method": "crossfade",
+                        "time": 2000
+                    }
+                ],
+                [
+                    3,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bk"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ],
+                            [
+                                "ev",
+                                "event",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "class": "event",
+                                    "link": "",
+                                    "name": "ev",
+                                    "showmode": 0,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "lse",
+                                "loopse",
+                                {
+                                    "name": "lse",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse2",
+                                "loopse",
+                                {
+                                    "name": "lse2",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse3",
+                                "loopse",
+                                {
+                                    "name": "lse3",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bk",
+                                    "imageMapperData": {
+                                        "stage": "黒",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": {
+                                        "color": 0,
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                },
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "event",
+                                    "cpropsact": {
+                                        "zpos": 0
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "ev",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse2",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse3",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "黒",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    null,
+                    23
+                ],
+                [
+                    "startline"
+                ],
+                [
+                    "envupdate",
+                    "wait",
+                    {
+                        "list": [
+                            {
+                                "mode": 0,
+                                "name": "bgm"
+                            }
+                        ],
+                        "wait": 1
+                    }
+                ],
+                [
+                    4,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bk"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ],
+                            [
+                                "ev",
+                                "event",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "class": "event",
+                                    "link": "",
+                                    "name": "ev",
+                                    "showmode": 0,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "lse",
+                                "loopse",
+                                {
+                                    "name": "lse",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse2",
+                                "loopse",
+                                {
+                                    "name": "lse2",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse3",
+                                "loopse",
+                                {
+                                    "name": "lse3",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bk",
+                                    "imageMapperData": {
+                                        "stage": "黒",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": {
+                                        "color": 0,
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                },
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "event",
+                                    "cpropsact": {
+                                        "zpos": 0
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "ev",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse2",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse3",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "黒",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    null,
+                    23
+                ],
+                [
+                    "startline",
+                    "vflag",
+                    0,
+                    "name",
+                    "",
+                    "text",
+                    0
+                ],
+                [
+                    5,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bk"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ],
+                            [
+                                "ev",
+                                "event",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "class": "event",
+                                    "link": "",
+                                    "name": "ev",
+                                    "showmode": 0,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "lse",
+                                "loopse",
+                                {
+                                    "name": "lse",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse2",
+                                "loopse",
+                                {
+                                    "name": "lse2",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse3",
+                                "loopse",
+                                {
+                                    "name": "lse3",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bk",
+                                    "imageMapperData": {
+                                        "stage": "黒",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": {
+                                        "color": 0,
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                },
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "event",
+                                    "cpropsact": {
+                                        "zpos": 0
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "ev",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse2",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse3",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "黒",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    1,
+                    26
+                ]
+            ],
+            "nexts": [
+                {
+                    "storage": "04_01_01c.txt",
+                    "type": 0
+                }
+            ],
+            "spCount": 5,
+            "title": "１章　ハッピーバースデイ！",
+            "version": 1.0
+        },
+        {
+            "firstLine": 26,
+            "label": "*ecchi",
+            "lines": [
+                [
+                    1,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "link": "",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bg_50a"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 1,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bg_50a",
+                                    "imageMapperData": {
+                                        "stage": "店舗外観４閉店",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": null,
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "店舗外観４閉店",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    1,
+                    26
+                ],
+                [
+                    "startline"
+                ],
+                [
+                    "msgoff",
+                    "time",
+                    "1000"
+                ],
+                [
+                    "envupdate",
+                    "update",
+                    [
+                        [
+                            "new",
+                            "lse",
+                            "loopse"
+                        ],
+                        [
+                            "new",
+                            "lse2",
+                            "loopse"
+                        ],
+                        [
+                            "new",
+                            "lse3",
+                            "loopse"
+                        ],
+                        {
+                            "class": "stage",
+                            "link": "",
+                            "name": "bg",
+                            "redraw": {
+                                "disp": 2,
+                                "imageFile": {
+                                    "file": "bg_50a"
+                                },
+                                "posName": null
+                            },
+                            "showmode": 3,
+                            "type": null
+                        }
+                    ]
+                ],
+                [
+                    2,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bk"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ],
+                            [
+                                "ev",
+                                "event",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "class": "event",
+                                    "link": "",
+                                    "name": "ev",
+                                    "showmode": 0,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "lse",
+                                "loopse",
+                                {
+                                    "name": "lse",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse2",
+                                "loopse",
+                                {
+                                    "name": "lse2",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse3",
+                                "loopse",
+                                {
+                                    "name": "lse3",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bk",
+                                    "imageMapperData": {
+                                        "stage": "黒",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": {
+                                        "color": 0,
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                },
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "event",
+                                    "cpropsact": {
+                                        "zpos": 0
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "ev",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse2",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse3",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "黒",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    null,
+                    27
+                ],
+                [
+                    "envupdate",
+                    "update",
+                    [
+                        [
+                            "new",
+                            "ev",
+                            "event"
+                        ],
+                        {
+                            "action": [
+                                null,
+                                [
+                                    "leveloffset",
+                                    ""
+                                ]
+                            ],
+                            "class": "stage",
+                            "link": "",
+                            "name": "bg",
+                            "redraw": {
+                                "disp": 2,
+                                "imageFile": {
+                                    "file": "bk"
+                                },
+                                "posName": null
+                            },
+                            "showmode": 3,
+                            "type": null
+                        }
+                    ],
+                    "wait",
+                    {
+                        "list": [
+                            null,
+                            {
+                                "mode": 0,
+                                "name": "env"
+                            }
+                        ],
+                        "wait": 1500
+                    },
+                    "trans",
+                    {
+                        "method": "crossfade",
+                        "time": 2000
+                    }
+                ],
+                [
+                    3,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bk"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ],
+                            [
+                                "ev",
+                                "event",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "class": "event",
+                                    "link": "",
+                                    "name": "ev",
+                                    "showmode": 0,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "lse",
+                                "loopse",
+                                {
+                                    "name": "lse",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse2",
+                                "loopse",
+                                {
+                                    "name": "lse2",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse3",
+                                "loopse",
+                                {
+                                    "name": "lse3",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bk",
+                                    "imageMapperData": {
+                                        "stage": "黒",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": {
+                                        "color": 0,
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                },
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "event",
+                                    "cpropsact": {
+                                        "zpos": 0
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "ev",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse2",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse3",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "黒",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    null,
+                    27
+                ],
+                [
+                    "startline"
+                ],
+                [
+                    "envupdate",
+                    "wait",
+                    {
+                        "list": [
+                            {
+                                "mode": 0,
+                                "name": "bgm"
+                            }
+                        ],
+                        "wait": 1
+                    }
+                ],
+                [
+                    4,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bk"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ],
+                            [
+                                "ev",
+                                "event",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "class": "event",
+                                    "link": "",
+                                    "name": "ev",
+                                    "showmode": 0,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "lse",
+                                "loopse",
+                                {
+                                    "name": "lse",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse2",
+                                "loopse",
+                                {
+                                    "name": "lse2",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse3",
+                                "loopse",
+                                {
+                                    "name": "lse3",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bk",
+                                    "imageMapperData": {
+                                        "stage": "黒",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": {
+                                        "color": 0,
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                },
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "event",
+                                    "cpropsact": {
+                                        "zpos": 0
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "ev",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse2",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse3",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "黒",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    null,
+                    27
+                ],
+                [
+                    "startline",
+                    "vflag",
+                    0,
+                    "name",
+                    "",
+                    "text",
+                    0
+                ],
+                [
+                    5,
+                    {
+                        "data": [
+                            [
+                                "bg",
+                                "stage",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "class": "stage",
+                                    "name": "bg",
+                                    "redraw": {
+                                        "disp": 2,
+                                        "imageFile": {
+                                            "file": "bk"
+                                        },
+                                        "posName": null
+                                    },
+                                    "showmode": 3,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "bgm",
+                                "bgm",
+                                {
+                                    "name": "bgm",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": 1,
+                                        "start": null,
+                                        "state": 0,
+                                        "volume": 100
+                                    },
+                                    "update": {
+                                        "state": 0
+                                    }
+                                }
+                            ],
+                            [
+                                "ev",
+                                "event",
+                                {
+                                    "action": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "class": "event",
+                                    "link": "",
+                                    "name": "ev",
+                                    "showmode": 0,
+                                    "type": null
+                                }
+                            ],
+                            [
+                                "lse",
+                                "loopse",
+                                {
+                                    "name": "lse",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse2",
+                                "loopse",
+                                {
+                                    "name": "lse2",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ],
+                            [
+                                "lse3",
+                                "loopse",
+                                {
+                                    "name": "lse3",
+                                    "replay": {
+                                        "filename": null,
+                                        "loop": null,
+                                        "start": null,
+                                        "state": null,
+                                        "volume": null
+                                    },
+                                    "update": {
+                                        "state": null
+                                    }
+                                }
+                            ]
+                        ],
+                        "env": {
+                            "cname": {
+                                "name": "environment"
+                            },
+                            "cpropsact": {},
+                            "memo": {},
+                            "meswinchange": "large",
+                            "msgstate": 0,
+                            "name": "env",
+                            "objectList": [
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            233.33333333333337
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "stage",
+                                    "cpropsact": {
+                                        "leveloffset": 0,
+                                        "zpos": 0
+                                    },
+                                    "disp": 2,
+                                    "imageFile": "bk",
+                                    "imageMapperData": {
+                                        "stage": "黒",
+                                        "time": "昼"
+                                    },
+                                    "imageMapperFile": "base.stage",
+                                    "imageOptions": null,
+                                    "imageOptionsAll": null,
+                                    "imageSourceOptions": {
+                                        "color": 0,
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "bg",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "bgm",
+                                    "cpropsact": {},
+                                    "lockFlag": 1,
+                                    "memo": {},
+                                    "name": "bgm"
+                                },
+                                {
+                                    "actionList": [
+                                        [
+                                            "zpos",
+                                            -60.0
+                                        ]
+                                    ],
+                                    "clipMode": 0,
+                                    "cname": "event",
+                                    "cpropsact": {
+                                        "zpos": 0
+                                    },
+                                    "linkDelete": 0,
+                                    "linkMask": 0,
+                                    "linkMode": 0,
+                                    "memo": {},
+                                    "name": "ev",
+                                    "posClassName": ""
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse2",
+                                    "state": null
+                                },
+                                {
+                                    "cname": "loopse",
+                                    "cpropsact": {},
+                                    "memo": {},
+                                    "name": "lse3",
+                                    "state": null
+                                }
+                            ],
+                            "rprops": {
+                                "timename": "昼"
+                            },
+                            "stage": "黒",
+                            "time": "昼"
+                        },
+                        "meswinchange": "large"
+                    },
+                    null,
+                    1,
+                    28
+                ]
+            ],
+            "nexts": [
+                {
+                    "storage": "04_01_01h.txt",
+                    "type": 0
+                }
+            ],
+            "spCount": 5,
+            "title": "１章　ハッピーバースデイ！",
+            "version": 1.0
+        }
+    ]
+}
